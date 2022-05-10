@@ -1,0 +1,19 @@
+{
+  "name": "microcord",
+  "description": "An example bot made using CloudStorm and SnowTransfer.",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "gateway": "node gateway/gateway.js",
+    "rest": "node rest/restClient.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "x4nk1t",
+  "dependencies": {
+    "cloudstorm": "^0.5.4",
+    "snowtransfer": "^0.5.3",
+    "socket.io": "^4.5.0",
+    "socket.io-client": "^4.5.0"
+  }
+}
